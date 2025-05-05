@@ -1,0 +1,85 @@
+{
+  "Name": "Edie Britt Agency",
+  "Address": {
+    "City": "Фэрвью",
+    "Street": "Вистэрия Лэйн",
+    "HouseNumber": 23
+  },
+  "Website": "https://EdieBrittAgency",
+  "Agents": [
+    {
+      "ID": 1,
+      "FirstName": "Иди",
+      "LastName": "Бритт",
+      "Phone": "123456789",
+      "CommissionRate": 0.07,
+      "Address": {
+        "City": "Фэрвью",
+        "Street": "Вистэрия Лэйн",
+        "HouseNumber": 43
+      }
+    },
+    {
+      "ID": 2,
+      "FirstName": "Брэд",
+      "LastName": "Питт",
+      "Phone": "987654321",
+      "CommissionRate": 0.04,
+      "Address": {
+        "City": "Казань",
+        "Street": "Гаврилова",
+        "HouseNumber": 52
+      }
+    },
+    {
+      "ID": 3,
+      "FirstName": "Леонардо",
+      "LastName": "Ди Каприо",
+      "Phone": "123454321",
+      "CommissionRate": 0.04,
+      "Address": {
+        "City": "Нью-Йорк",
+        "Street": "Уолл-стрит",
+        "HouseNumber": 16
+      }
+    }
+  ],
+  "Estates": [
+    {
+      "ID": 1,
+      "Address": "Четаева",
+      "Type": "Дом",
+      "Bedrooms": 3,
+      "Price": 12000000,
+      "Features": {
+        "HasBalcony": true,
+        "HasParking": true,
+        "Description": "Домик у озера"
+      }
+    },
+    {
+      "ID": 2,
+      "Address": "Кремлевская",
+      "Type": "Студия",
+      "Bedrooms": 1,
+      "Price": 4000000,
+      "Features": {
+        "HasBalcony": true,
+        "HasParking": false,
+        "Description": "Современная студия"
+      }
+    },
+    {
+      "ID": 3,
+      "Address": "Восстания",
+      "Type": "Квартира",
+      "Bedrooms": 3,
+      "Price": 5700000,
+      "Features": {
+        "HasBalcony": true,
+        "HasParking": false,
+        "Description": "Трехкомнатная квартира"
+      }
+    }
+  ]
+}

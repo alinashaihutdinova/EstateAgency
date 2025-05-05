@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EstateAgency>
+  <Name>Edie Britt Agency</Name>
+  <Address>
+    <City>Фэрвью</City>
+	<Street>Вистэрия Лэйн</Street>
+    <HouseNumber>23</HouseNumber>
+  </Address>
+  <Website>https://EdieBrittAgency</Website>
+  <Agents>
+    <Agent ID="1">
+      <FirstName>Иди</FirstName>
+      <LastName>Бритт</LastName>
+      <Phone>123456789</Phone>
+      <CommissionRate>0.07</CommissionRate>
+	   <Address>
+          <City>Фэрвью</City>
+		  <Street>Вистэрия Лэйн</Street>
+          <HouseNumber>43</HouseNumber>
+        </Address> 
+    </Agent>
+    <Agent ID="2">
+      <FirstName>Брэд</FirstName>
+      <LastName>Питт</LastName>
+      <Phone>987654321</Phone>
+      <CommissionRate>0.04</CommissionRate>
+	   <Address>
+          <City>Казань</City>
+		  <Street>Гаврилова</Street>
+          <HouseNumber>52</HouseNumber>
+        </Address> 
+    </Agent>
+	<Agent ID="3">
+      <FirstName>Леонардо</FirstName>
+      <LastName>Ди Каприо</LastName>
+      <Phone>123454321</Phone>
+      <CommissionRate>0.04</CommissionRate>
+	   <Address>
+          <City>Нью-Йорк</City>
+		  <Street>Уолл-стрит</Street>
+          <HouseNumber>16</HouseNumber>
+        </Address> 
+	</Agent>
+  </Agents>
+  <Estates>
+    <Estate ID="1">
+      <Address>Четаева</Address>
+      <Type>Дом</Type>
+      <Bedrooms>3</Bedrooms>
+      <Price>12000000</Price>
+      <Features>
+        <HasBalcony>true</HasBalcony>
+        <HasParking>true</HasParking>
+        <Description>Домик у озера</Description>
+      </Features>
+    </Estate>
+    <Estate ID="2">
+        <Address>Кремлевская</Address>
+        <Type>Студия</Type>
+        <Bedrooms>1</Bedrooms>
+        <Price>4000000</Price>
+        <Features>
+          <HasBalcony>true</HasBalcony>
+          <HasParking>false</HasParking>
+          <Description>Современная студия</Description>
+        </Features>
+      </Estate>
+	  <Estate ID="3">
+        <Address>Восстания</Address>
+        <Type>Квартира</Type>
+        <Bedrooms>3</Bedrooms>
+        <Price>5700000</Price>
+        <Features>
+          <HasBalcony>true</HasBalcony>
+          <HasParking>false</HasParking>
+          <Description>Трехкомнатная квартира</Description>
+        </Features>
+      </Estate>
+    </Estates>
+  </EstateAgency>
